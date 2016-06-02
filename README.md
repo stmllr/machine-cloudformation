@@ -48,7 +48,7 @@ Tags can be passed in the same way.
 e.g. Owner=jeff
 
 ```
-docker-machine create --cloudformaiton-url https://s3.amazonws.amazon.com/somebucket/cloudformation.json --cloudformation-keypairname mykey --cloudformation-keypath /Users/jellin/.ssh/id_rsa
+docker-machine create --cloudformation-url https://s3.amazonws.amazon.com/somebucket/cloudformation.json --cloudformation-keypairname mykey --cloudformation-keypath /Users/jellin/.ssh/id_rsa
 ```
 
 Once the machine is started you can work with it as you would a normal docker-machine.
